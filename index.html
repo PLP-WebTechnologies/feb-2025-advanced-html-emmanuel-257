@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>advanced html assignment</title>
+    <body>
+        <img src="pexels-pixabay-163185.jpg" class="image">
+        <style>
+            .image{
+                width: 100px;
+            }
+        </style>
+        <div>  
+            <table border="5">       
+                <thead>               
+                    <tr>                   
+                        <th>name</th>                    
+                        <th>address</th>                
+                        <th>mobile</th>                  
+                        <th>email</th>              
+                    </tr>            
+                </thead>          
+                <tbody>              
+                    <tr>                 
+                        <td>emmanuel juma</td>                   
+                        <td>N/A</td>                   
+                        <td>0704209136</td>                   
+                        <td>1emmanueljuma@gmail.com</td>              
+                    </tr>           
+                </tbody>       
+            </table>       
+        </div>       
+        <form class="form">
+            name<input type="text">
+            email<input type="text">
+            password<input type="text">
+
+            <!--gender selection-->
+            <p>Select your gender:</p>
+            
+            <label for="gender"></label>  
+            <input type="radio" id="gender" name="gender" value="male">male  
+            <input type="radio" id="gender" name="gender" value="female">female  
+            
+            <br>
+
+            <!--subject selection-->
+            <p>Select the subjects (sciences) you undertake:</p>
+            <label for="subjects"></label>               
+            <input type="checkbox" value="biology">Biology                
+            <input type="checkbox" value="chemistry"> Chemistry               
+            <input type="checkbox" value="physics" >Physics                
+            <input type="checkbox" value="physical_science">physical sciences 
+            <div>            
+                <label for="school"></label>          
+                <select name="school" id="school">                
+                    <option>--select school---</option>                
+                    <option value="chianda high">chianda high</option>                
+                    <option value="maranda high">maranda high</option>               
+                    <option value="ugenya high">ugenya high</option>               
+                    <option value="pioneer school">pioneer school</option>
+                </select>   
+            </div>
+            <style>
+                .form{
+                    padding-top:10px;
+                    
+                    
+                }
+            </style>
+            
+            
+
+
+        </form>
+    </body>
+</html>
